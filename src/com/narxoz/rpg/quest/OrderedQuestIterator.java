@@ -3,9 +3,6 @@ package com.narxoz.rpg.quest;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-/**
- * Traverses quests in arrival order.
- */
 public class OrderedQuestIterator implements QuestIterator {
 
     private final List<Quest> snapshot;
